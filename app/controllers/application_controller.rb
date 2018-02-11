@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def hello
-    render html: "Alo, mundo!"
+    render html: "Alo, Mundo!"
   end
 
   #função "goodbye" com exclamação invertida (exclamation mark)
